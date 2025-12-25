@@ -5,44 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.52.0] - 2025-12-24
+## [0.51.0] - 2025-12-25
 ### Details
+#### Bug Fixes
+- Fix emoji and CJKV width calculations causing incorrect table rendering by @finnvoor in [#738](https://github.com/tuist/Noora/pull/738)
+- Trigger cli release by @fortmarek in [#709](https://github.com/tuist/Noora/pull/709)
+- Registry download by @fortmarek in [#708](https://github.com/tuist/Noora/pull/708)
+
+#### Documentation
+- Fix typos by @ns-vasilev in [#687](https://github.com/tuist/Noora/pull/687)
+
 #### Features
 - Add live-updating selectable tables by @zamderax in [#703](https://github.com/tuist/Noora/pull/703)
 - Date picker by @fortmarek in [#784](https://github.com/tuist/Noora/pull/784)
+- Add support for Windows by @Joannis in [#652](https://github.com/tuist/Noora/pull/652)
 
 #### Chore
 - Update dependency onevcat/rainbow to from: "4.2.1" by @renovate[bot] in [#785](https://github.com/tuist/Noora/pull/785)
 - Update dependency apple/swift-argument-parser to from: "1.7.0" by @renovate[bot] in [#780](https://github.com/tuist/Noora/pull/780)
 - Update dependency apple/swift-log to from: "1.8.0" by @renovate[bot] in [#769](https://github.com/tuist/Noora/pull/769)
-
-## New Contributors
-* @zamderax made their first contribution in [#703](https://github.com/tuist/Noora/pull/703)
-## [0.51.3] - 2025-12-05
-### Details
-#### Bug Fixes
-- Fix emoji and CJKV width calculations causing incorrect table rendering by @finnvoor in [#738](https://github.com/tuist/Noora/pull/738)
-
-#### Chore
 - Update dependency apple/swift-log to from: "1.7.1" by @renovate[bot] in [#749](https://github.com/tuist/Noora/pull/749)
 - Update dependency apple/swift-log to from: "1.7.0" by @renovate[bot] in [#745](https://github.com/tuist/Noora/pull/745)
 
-## [0.51.2] - 2025-11-22
-### Details
-#### Bug Fixes
-- Trigger cli release by @fortmarek in [#709](https://github.com/tuist/Noora/pull/709)
-- Registry download by @fortmarek in [#708](https://github.com/tuist/Noora/pull/708)
-
-## [0.51.1] - 2025-11-15
-### Details
-#### Documentation
-- Fix typos by @ns-vasilev in [#687](https://github.com/tuist/Noora/pull/687)
-
-## [0.51.0] - 2025-11-06
-### Details
-#### Features
-- Add support for Windows by @Joannis in [#652](https://github.com/tuist/Noora/pull/652)
-
+## New Contributors
+* @Ryu0118 made their first contribution in [#772](https://github.com/tuist/Noora/pull/772)
+* @zamderax made their first contribution in [#703](https://github.com/tuist/Noora/pull/703)
 ## [0.50.0] - 2025-10-21
 ### Details
 #### Features
@@ -153,10 +140,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.6.0] - 2024-04-16
 ### Details
-[0.52.0]: https://github.com/tuist/Noora/compare/0.51.3..0.52.0
-[0.51.3]: https://github.com/tuist/Noora/compare/0.51.2..0.51.3
-[0.51.2]: https://github.com/tuist/Noora/compare/0.51.1..0.51.2
-[0.51.1]: https://github.com/tuist/Noora/compare/0.51.0..0.51.1
 [0.51.0]: https://github.com/tuist/Noora/compare/0.50.0..0.51.0
 [0.50.0]: https://github.com/tuist/Noora/compare/0.49.1..0.50.0
 [0.49.1]: https://github.com/tuist/Noora/compare/0.49.0..0.49.1
